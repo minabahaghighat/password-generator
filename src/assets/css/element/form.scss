@@ -1,0 +1,29 @@
+.form-control {
+    @apply h-10 border bg-white border-gray-200 px-4 py-1 rounded-md ml-2 w-[320px] text-gray-900 text-sm        
+      transition-all
+      duration-300
+      hover:border-primary-500
+      focus:ring-1 focus:ring-primary-200 focus:ring-offset-2 focus:border-primary-500;
+  
+    &::placeholder {
+      @apply text-xs font-medium text-gray-400;
+    }
+    &.with-icon {
+      @apply pr-10;
+    }
+  }
+  
+  .form-control[disabled] {
+    @apply bg-gray-100;
+  }
+  
+  .main-form {
+    @apply mb-6;
+    label {
+      @apply block mb-2 text-xs text-gray-700 font-medium;
+    }
+  }
+  
+
+  
+ 

@@ -1,0 +1,17 @@
+.password-generator-component {
+    @apply flex justify-center items-center h-screen  ;
+
+    .password-generator-wrapper{
+            @apply border border-gray-300 border-solid flex justify-center items-center flex-col p-8  ; 
+            h3{
+                @apply text-2xl text-gray-700 font-semibold mb-8;
+            }
+
+            form{
+                @apply flex justify-center items-center flex-col;
+                .text-password{
+                    @apply w-12 border-0 text-3xl text-primary-800 ;
+                }
+            }
+    }
+}
